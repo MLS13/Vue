@@ -1,26 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <PrevisaoTempo/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PrevisaoTempo from './components/PrevisaoTempo.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PrevisaoTempo
   }
 }
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
   margin-top: 60px;
+}
+
+html{
+  background-color: #6377EE;
 }
 </style>
